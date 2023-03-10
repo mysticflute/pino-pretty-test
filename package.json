@@ -1,0 +1,17 @@
+{
+  "name": "pino-pretty-test",
+  "version": "1.0.0",
+  "description": "Quick test of setting pino-pretty log level from cli flag",
+  "main": "node index.js",
+  "scripts": {
+    "test": "node index.js | pino-pretty --minimumLevel=debug"
+  },
+  "author": "Nathan McWilliams",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^8.11.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^9.4.0"
+  }
+}
